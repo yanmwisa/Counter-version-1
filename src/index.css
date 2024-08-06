@@ -1,0 +1,66 @@
+.count {
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-image: url(https://th.bing.com/th/id/OIP.nVqlC-r9uZC3dnkZapr42wHaEo?w=233&h=180&c=7&r=0&o=5&dpr=2&pid=1.7); /* add this line */
+    background-size: cover; /* add this line to cover the entire container */
+    background-position: center; 
+    /* add this line to center the image */
+    filter: brightness(100%);
+    color: #f0f0f0;
+}
+
+.button-container {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+
+.button1, .button2 {
+    height: 40px; /* taille de bouton */
+    width: 10%; /* largeur des boutons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px; /* padding horizontal pour faire ressortir le bouton */
+    margin: 10px; /* marge pour séparer les boutons */
+    border: none;
+    color: black; /* couleur de texte pour le bouton */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.button1{
+    background-color: #2196F3;
+
+}
+.button2{
+    background-color:#ff00009e;
+
+}
+
+.button1:hover {
+    background-color: #2196F3;
+    color: #f0f0f0;
+        }
+
+
+
+.button2:hover {
+        background-color: #ff00009e;
+            color: #f0f0f0;
+}
+.counte-container{
+    display: flex;
+    justify-content: center;
+
+}
